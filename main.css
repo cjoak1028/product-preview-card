@@ -67,6 +67,10 @@ h6 {
     isolation: isolate;
 }
 
+.product-card {
+    background-color: var(--c-container);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
