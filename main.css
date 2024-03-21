@@ -6,8 +6,8 @@
     --c-onPrimary: hsl(0, 0%, 100%);
 
     --c-container: hsl(0, 0%, 100%);
-    --c-onContainer: hsl(212, 21%, 14%);
-    --c-onContainer-var: hsl(228, 12%, 48%);
+    --c-onContainer: hsl(228, 12%, 48%);
+    --c-onContainer-var: hsl(212, 21%, 14%);
 
     --ff-display: "Fraunces", serif;
     --ff-default: "Montserrat", sans-serif;
@@ -28,12 +28,12 @@ html {
 }
 
 body {
-    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     min-height: 100vh;
-    font-size: 1.4rem;
-    font-family: var(--ff-default);
     background-color: var(--c-surface);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img,
@@ -67,8 +67,97 @@ h6 {
     isolation: isolate;
 }
 
+/* TEXT STYLES */
+.text-display {
+    color: var(--c-onContainer-var);
+    font-family: var(--ff-display);
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+
+.text-body {
+    color: var(--c-onContainer);
+    font-family: var(--ff-default);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+}
+
+.text-button {
+    color: var(--c-onPrimary);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: auto;
+}
+
+.text-overline {
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* ELEMENT STYLES */
 .product-card {
     background-color: var(--c-container);
+    width: 91%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.product-card__content {
+    padding: 2.4rem;
+}
+
+.product-card__category {
+    margin-bottom: 1.2rem;
+}
+
+.product-card__title {
+    margin-bottom: 1.6rem;
+}
+
+.product-card__description {
+    margin-bottom: 2.4rem;
+}
+
+.product-card__prices {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product-card__discount {
+    color: var(--c-primary);
+}
+
+.product-card__original {
+    text-decoration: line-through;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+}
+
+.product-card__cta {
+    background-color: var(--c-primary);
+    border: none;
+    border-radius: 0.8rem;
+    width: 100%;
+    padding: 1.5rem 0;
+    cursor: pointer;
+}
+
+.product-card__cta:hover {
+    transition: 0.2s;
+    background-color: var(--c-primary-hover);
+}
+
+.product-card__cta img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1.2rem;
 }
 
 .attribution {
