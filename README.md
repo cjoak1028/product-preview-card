@@ -58,4 +58,4 @@ For this project in particular, I wanted to use vanilla CSS to revisit the funda
 
 - Website - [CJ Kim](https://cjkim.dev/)
 - Frontend Mentor - [cjoak1028](https://www.frontendmentor.io/profile/cjoak1028)
-- Linkedin - [Link](www.linkedin.com/in/cj-kim-966351255)
+- Linkedin - [Link](https://www.linkedin.com/in/cj-kim-966351255)
