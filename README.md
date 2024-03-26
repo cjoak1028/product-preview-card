@@ -44,11 +44,11 @@ Users should be able to:
 
 ### What I learned
 
-Nothing new in particular. I committed myself to this project to get my gears running again.
+Nothing grandiose.
 
 ### Continued development
 
-For this project in particular, I wanted to use vanilla CSS to revisit the fundamentals of CSS. Moving forward, I'll be exploring and utilizing popular tools such as SASS/SCSS and Tailwind.
+For this project in particular, I wanted to use vanilla CSS to revisit its fundamentals. Moving forward, I'll be exploring and utilizing popular tools such as SASS/SCSS and Tailwind.
 
 ### Useful resources
 
